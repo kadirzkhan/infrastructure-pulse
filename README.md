@@ -2,6 +2,12 @@
 
 Infrastructure Pulse is a Django-based monitoring dashboard that visualizes live CPU, memory, and disk telemetry for the host machine. It is designed as a portfolio-ready systems project with real-time charts, persistent historical samples, and a polished operations-style interface.
 
+[Live Demo](https://infrastructure-pulse.onrender.com) | [GitHub Repository](https://github.com/kadirzkhan/infrastructure-pulse)
+
+## Dashboard Preview
+
+![Infrastructure Pulse dashboard](docs/screenshots/dashboard-desktop.png)
+
 ## Highlights
 
 - Real-time telemetry collection with `psutil`
@@ -18,6 +24,9 @@ Infrastructure Pulse is a Django-based monitoring dashboard that visualizes live
 - Django
 - SQLite
 - psutil
+- HTML
+- CSS
+- JavaScript
 - Chart.js
 
 ## Local setup
