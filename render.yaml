@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: infrastructure-pulse
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt && bash build.sh"
+    startCommand: "gunicorn monitor_dashboard.wsgi:application --bind 0.0.0.0:$PORT"
+    envVars:
+      - key: DJANGO_DEBUG
+        value: "False"
+      - key: DJANGO_ALLOWED_HOSTS
+        value: ".onrender.com,127.0.0.1,localhost"
