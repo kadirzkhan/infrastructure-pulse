@@ -41,7 +41,7 @@ Open `http://127.0.0.1:8000/`.
 
 ## Deploying live
 
-This repository now includes [render.yaml](C:/Users/abdul/monitor_dashboard/monitor_dashboard/render.yaml) and [build.sh](C:/Users/abdul/monitor_dashboard/monitor_dashboard/build.sh) for a simple Render deployment.
+This repository includes `render.yaml` and `build.sh` for a simple Render deployment.
 
 1. Push the project to GitHub.
 2. Create a new web service on Render from the repo.
